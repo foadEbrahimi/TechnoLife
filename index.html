@@ -4,9 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
     <title>TechnoLife Train</title>
   </head>
   <body>
+    <nav>
+      <div
+        class="container mx-auto px-5 mt-3 lg:flex lg:justify-between 2xl:px-16"
+      >
+        <div
+          class="flex justify-between items-center md:justify-start md:gap-x-10"
+        >
+          <div class="btnNavbar">
+            <a href="#" class="btnSide flex flex-col">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </a>
+          </div>
+          <div class="logo flex w-29 h-8">
+            <img src="./assets/images/Logo-img.svg" class="" alt="Logo-img" />
+            <img
+              src="./assets/images/Logo-Title.svg"
+              class="ps-2"
+              alt="Logo-Title"
+            />
+          </div>
+          <div class="SearchBox hidden md:flex">
+            <input
+              type="search"
+              class="bg-[#f0f0f0] w-96 p-2 outline-none text-black rounded-lg text-base placeholder:text-gray-400 placeholder:text-base"
+              placeholder="محصول، برند یا دسته مورد نظرتان را جستجو کنید"
+            />
+          </div>
+        </div>
+        <div class="hidden lg:flex gap-x-5 lg:justify-end">
+          <div
+            class="Login&Register border rounded-lg border-[#A8843A] flex gap-x-2 justify-between items-center px-10"
+          >
+            <a href="#">
+              <span class="">ورود</span>
+            </a>
+            <span class="w-0.5 h-5 bg-black"></span>
+            <a href="#">
+              <span class="">ثبت نام</span>
+            </a>
+          </div>
+          <div class="CartBox flex items-center justify-center">
+            <span
+              class="border p-1 border-gray-400 flex items-center justify-center rounded-lg"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
