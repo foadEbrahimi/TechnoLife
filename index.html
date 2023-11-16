@@ -8,14 +8,15 @@
     <title>TechnoLife Train</title>
   </head>
   <body class="font-vazir">
-    <nav>
+    <!-- 🔴 نوبار بالا -->
+    <nav class="fixed top-0 right-0 w-full bg-white">
       <div
         class="container mx-auto px-5 mt-3 lg:flex lg:justify-between 2xl:px-16"
       >
         <div
           class="flex justify-between items-center md:justify-start md:gap-x-10"
         >
-          <div class="btnNavbar">
+          <div class="btnNavbar xl:hidden">
             <a href="#" class="btnSide flex flex-col">
               <span class="line"></span>
               <span class="line"></span>
@@ -68,7 +69,26 @@
           </div>
         </div>
       </div>
+      <div
+        class="navbar container mx-auto hidden xl:flex items-center px-5 mt-8 2xl:px-16"
+      >
+        <ul class="flex items-center gap-x-4 2xl:gap-x-5 text-gray-600 text-sm">
+          <li><a href="#">گوشی موبایل</a></li>
+          <li><a href="#">لپ تاپ و تبلت</a></li>
+          <li><a href="#">هدفون و هنذفری</a></li>
+          <li><a href="#">ساعت و بند هوشمند</a></li>
+          <li><a href="#">کامپیوتر و ماشین های اداری</a></li>
+          <li><a href="#">شبکه و تجهزات ذخیره سازی</a></li>
+          <li><a href="#">گیمینگ</a></li>
+          <li><a href="#">صوتی تصویری</a></li>
+          <li class="border-e-2 border-black pe-4">
+            <a href="#">لوازم خانگی</a>
+          </li>
+          <li class="text-blue-600"><a href="#">فروشنده شو</a></li>
+        </ul>
+      </div>
     </nav>
+    <!-- 🔴🔴 -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

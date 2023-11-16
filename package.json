@@ -1,7 +1,8 @@
 {
   "scripts": {
     "watch": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
-    "live": "live-server ./ --watch"
+    "live": "live-server ./ --watch",
+    "push": "git push origin main"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.5"
