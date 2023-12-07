@@ -13,8 +13,16 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 var swiper2 = new Swiper(".mySwiper2", {
-  slidesPerView: 4,
+  spaceBetween: 100,
   speed: 1000,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+var swiper = new Swiper(".offer-swiper", {
+  slidesPerView: 2,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",

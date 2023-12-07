@@ -8,6 +8,12 @@ module.exports = {
       with: {
         29: "7.5rem",
       },
+      maxWidth: {
+        16: "17rem",
+        10: "10rem",
+        13: "13rem",
+        5: "5rem",
+      },
     },
   },
   plugins: [],
