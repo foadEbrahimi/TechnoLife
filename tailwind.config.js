@@ -1,18 +1,18 @@
 module.exports = {
-  content: ["*.html"],
+  content: ['*.html'],
   theme: {
     extend: {
       fontFamily: {
-        vazir: ["vazir"],
+        vazir: ['vazir'],
       },
       with: {
-        29: "7.5rem",
+        29: '7.5rem',
       },
       maxWidth: {
-        16: "17rem",
-        10: "10rem",
-        13: "13rem",
-        5: "5rem",
+        16: '17rem',
+        10: '10rem',
+        13: '13rem',
+        5: '5rem',
       },
     },
   },
