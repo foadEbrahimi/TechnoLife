@@ -749,6 +749,10 @@ video {
   place-items: center;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1144,16 +1148,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .pe-4 {
   padding-inline-end: 1rem;
 }
@@ -1218,11 +1212,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.text-\[\#A8843A\] {
-  --tw-text-opacity: 1;
-  color: rgb(168 132 58 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -1393,6 +1382,18 @@ video {
   height: 2px;
 }
 
+@media screen and (min-width: 1280px) {
+  .Cards3 .Poster {
+    height: 186px !important;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .Cards3 .Poster {
+    height: 204px !important;
+  }
+}
+
 .placeholder\:text-base::-moz-placeholder {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1415,6 +1416,17 @@ video {
 
 .hover\:p-0:hover {
   padding: 0px;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {

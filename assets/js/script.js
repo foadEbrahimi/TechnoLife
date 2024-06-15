@@ -39,10 +39,39 @@ var swiper2 = new Swiper('.mySwiper2', {
   },
 });
 var swiper = new Swiper('.offer-swiper', {
-  slidesPerView: 2,
+  slidesPerView: 1.5,
   spaceBetween: 10,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2.5,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 40,
+    },
+    1282: {
+      slidesPerView: 6,
+      spaceBetween: 40,
+    },
   },
 });

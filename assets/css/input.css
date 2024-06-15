@@ -83,3 +83,14 @@
   width: 100%;
   height: 2px;
 }
+
+@media screen and (min-width: 1280px) {
+  .Cards3 .Poster {
+    height: 186px !important;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .Cards3 .Poster {
+    height: 204px !important;
+  }
+}
