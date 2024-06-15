@@ -7,7 +7,7 @@ var swiper = new Swiper('.mySwiper', {
 var swiper2 = new Swiper('.mySwiper2', {
   spaceBetween: 100,
   autoplay: true,
-  speed: 5000,
+  speed: 4000,
   breakpoints: {
     // when window width is >= 320px
     320: {
