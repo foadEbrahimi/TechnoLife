@@ -688,14 +688,6 @@ video {
   min-height: 100%;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-0\.5 {
-  width: 0.125rem;
-}
-
 .w-10 {
   width: 2.5rem;
 }
@@ -714,6 +706,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-\[1px\] {
+  width: 1px;
 }
 
 .w-full {
@@ -1364,6 +1360,23 @@ video {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.Navlink::before {
+  content: '';
+  width: 0;
+  height: 0px;
+  transition: all 0.5s ease;
+  background-color: coral;
+  position: absolute;
+  bottom: 12px;
+  transform-origin: bottom;
+  right: 0;
+}
+
+.Navlink:hover::before {
+  width: 100%;
+  height: 2px;
 }
 
 .placeholder\:text-base::-moz-placeholder {
