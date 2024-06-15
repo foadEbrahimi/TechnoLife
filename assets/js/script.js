@@ -39,7 +39,6 @@ var swiper2 = new Swiper('.mySwiper2', {
   },
 });
 var swiper = new Swiper('.offer-swiper', {
-  slidesPerView: 1.5,
   spaceBetween: 10,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -48,7 +47,7 @@ var swiper = new Swiper('.offer-swiper', {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 2.5,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     // when window width is >= 480px
