@@ -74,3 +74,32 @@ var swiper = new Swiper('.offer-swiper', {
     },
   },
 });
+
+var swiper = new Swiper('.brand-swiper', {
+  spaceBetween: 10,
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1.5,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2.5,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4.5,
+    },
+    1282: {
+      slidesPerView: 6,
+    },
+  },
+});
