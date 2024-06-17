@@ -1161,6 +1161,10 @@ video {
   padding-inline-start: 0.5rem;
 }
 
+.\!pr-5 {
+  padding-right: 1.25rem !important;
+}
+
 .text-center {
   text-align: center;
 }
