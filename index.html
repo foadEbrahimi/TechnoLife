@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="./assets/css/output.css" />
     <title>TechnoLife Shop</title>
   </head>
-  <body class="font-vazir !overflow-x-hidden">
+  <body class="font-vazir">
     <!-- 🔴 نوبار بالا -->
-    <nav class="sticky top-0 right-0 w-full bg-white z-10 py-5 shadow-md">
+    <nav
+      id="home"
+      class="sticky top-0 right-0 w-full bg-white z-10 py-5 shadow-md"
+    >
       <div
         class="container mx-auto px-5 mt-3 lg:flex lg:justify-between 2xl:px-16"
       >
@@ -1636,8 +1639,8 @@
             </div>
             <div class="mt-5">
               <div class="swiper offer-swiper">
-                <div class="swiper-wrapper items-center justify-start px-12">
-                  <div class="swiper-slide max-w-13">
+                <div class="swiper-wrapper gap-x-5 items-center">
+                  <div class="swiper-slide max-w-13 !ml-0 pr-5">
                     <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
                       <div class="img">
                         <img
@@ -1653,7 +1656,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide max-w-13">
+                  <div class="swiper-slide max-w-13 !ml-0 pr-5">
                     <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
                       <div class="img">
                         <img
@@ -1669,7 +1672,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide max-w-13">
+                  <div class="swiper-slide max-w-13 !ml-0 pr-5">
                     <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
                       <div class="img">
                         <img
@@ -1685,71 +1688,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="swiper-slide max-w-13">
-                    <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
-                      <div class="img">
-                        <img
-                          src="./assets/images/weblog/img-1.webp"
-                          class="rounded-t-md"
-                          alt=""
-                        />
-                      </div>
-                      <div class="info py-5">
-                        <h1 class="text-white text-base">
-                          بررسی ساعت میبرو a2
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide max-w-13">
-                    <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
-                      <div class="img">
-                        <img
-                          src="./assets/images/weblog/img-1.webp"
-                          class="rounded-t-md"
-                          alt=""
-                        />
-                      </div>
-                      <div class="info py-5">
-                        <h1 class="text-white text-base">
-                          بررسی ساعت میبرو a2
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide max-w-13">
-                    <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
-                      <div class="img">
-                        <img
-                          src="./assets/images/weblog/img-1.webp"
-                          class="rounded-t-md"
-                          alt=""
-                        />
-                      </div>
-                      <div class="info py-5">
-                        <h1 class="text-white text-base">
-                          بررسی ساعت میبرو a2
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide max-w-13">
-                    <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
-                      <div class="img">
-                        <img
-                          src="./assets/images/weblog/img-1.webp"
-                          class="rounded-t-md"
-                          alt=""
-                        />
-                      </div>
-                      <div class="info py-5">
-                        <h1 class="text-white text-base">
-                          بررسی ساعت میبرو a2
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide max-w-13">
+                  <div class="swiper-slide max-w-13 !ml-0 pr-5">
                     <div class="Card bg-gray-800 rounded-t-md rounded-b-lg">
                       <div class="img">
                         <img
@@ -1781,17 +1720,28 @@
       class="m-4 rounded-2xl 2xl:px-16 mt-10 bg-[#142740] p-4 flex flex-col gap-y-10"
     >
       <div class="flex items-center justify-between">
-        <div class="flex gap-x-3 bg-white p-1 rounded-md">
+        <div class="flex gap-x-3 p-1 rounded-md">
           <img src="./assets/images/Logo-img.svg" alt="" />
           <img src="./assets/images/Logo-Title.svg" alt="" />
         </div>
-        <a href="#" class="bg-white px-12 rounded-lg py-3"> بازگشت به بالا </a>
+        <a href="#home" class="px-12 rounded-lg py-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-10"
+            viewBox="0 0 512 512"
+            fill="#fff"
+          >
+            <path
+              d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z"
+            />
+          </svg>
+        </a>
       </div>
       <hr />
       <div class="md:flex md:items-center md:justify-between space-y-4">
         <div class="text-white space-y-4">
-          <h1>تلفن : 10000000</h1>
-          <h1>ایمیل : www@gmail.com</h1>
+          <h1>تلفن : 0912345678912</h1>
+          <h1>ایمیل : example@gmail.com</h1>
         </div>
         <div class="bg-white space-y-4 px-4 py-2 rounded-lg">
           <h1 class="text-lg">شبکه‌های اجتماعی</h1>

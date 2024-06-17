@@ -67,7 +67,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .Navlink::before {
   content: '';
   width: 0;
